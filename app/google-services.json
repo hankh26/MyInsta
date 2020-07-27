@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "572477498056",
+    "firebase_url": "https://myroutine-e87fa.firebaseio.com",
+    "project_id": "myroutine-e87fa",
+    "storage_bucket": "myroutine-e87fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572477498056:android:c56d64a8c870a93e893bfd",
+        "android_client_info": {
+          "package_name": "com.hh1995.myroutine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572477498056-2j3u71r74505p3ujf915h9rjfge3jphr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxw1rBQiqhlF0gibNoD3b3cp45hdUpBzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572477498056-2j3u71r74505p3ujf915h9rjfge3jphr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
