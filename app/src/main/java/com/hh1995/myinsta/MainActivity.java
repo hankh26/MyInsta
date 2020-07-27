@@ -74,4 +74,14 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.option_menu,menu);
         return super.onCreateOptionsMenu(menu);
     }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.option_send:
+                
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }
