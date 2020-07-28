@@ -2,15 +2,18 @@ package com.hh1995.myinsta;
 
 public class HomeItem {
     String id;
-    String numLike;
-    String Intro;
+    String msg;
+    String file;
+
+    int like;
 
     public HomeItem() {
     }
 
-    public HomeItem(String id, String numLike, String intro) {
+    public HomeItem(String id,  String msg, String file,int like) {
         this.id = id;
-        this.numLike = numLike;
-        Intro = intro;
+        this.msg = msg;
+        this.file= file;
+        this.like= like;
     }
 }

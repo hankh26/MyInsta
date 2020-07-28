@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/epi_img"
@@ -36,74 +37,56 @@
         android:src="@drawable/moana01"
         android:adjustViewBounds="true"
         android:layout_height="380dp"/>
-    <ImageView
+    <ToggleButton
         android:id="@+id/like"
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_below="@id/epi_mainImg"
-        android:onClick="clickHeart"
-        android:layout_marginLeft="8dp"
-        android:background="#FFFFFF"
-        android:src="@drawable/ic_favorite_border_black_24dp" />
-    <ImageView
+        android:textOn=" "
+        android:textOff=" "
+        android:background="@drawable/bg_favor"/>
+    <ToggleButton
         android:id="@+id/chat"
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_marginLeft="16dp"
         android:layout_below="@id/epi_mainImg"
         android:layout_toRightOf="@id/like"
+        android:textOn=" "
+        android:textOff=" "
         android:onClick="clickHeart"
-        android:background="#FFFFFF"
-        android:src="@drawable/ic_chat_bubble_outline_black_24dp" />
-    <ImageView
+        android:background="@drawable/ic_chat_bubble_outline_black_24dp" />
+    <ToggleButton
         android:id="@+id/send"
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_marginLeft="16dp"
         android:layout_below="@id/epi_mainImg"
+        android:textOn=" "
+        android:textOff=" "
         android:onClick="clickHeart"
         android:layout_toRightOf="@id/chat"
-        android:background="#FFFFFF"
-        android:src="@drawable/ic_send_black_24dp" />
-    <ImageView
+        android:background="@drawable/ic_send_black_24dp"/>
+    <ToggleButton
         android:id="@+id/book"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_below="@id/epi_mainImg"
         android:onClick="clickHeart"
+        android:textOn=" "
+        android:textOff=" "
         android:layout_alignParentRight="true"
         android:layout_marginRight="12dp"
-        android:background="#FFFFFF"
-        android:src="@drawable/ic_bookmark_border_black_24dp" />
-    <TextView
-        android:id="@+id/tvlike"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="좋아요"
-        android:textColor="#FF000000"
-        android:textSize="16sp"
-        android:layout_below="@id/like"
-        android:layout_alignLeft="@id/like"
-        android:layout_marginTop="8dp"/>
-    <TextView
-        android:id="@+id/numLike"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="0개"
-        android:textColor="#FF000000"
-        android:textSize="16sp"
-        android:layout_marginLeft="4dp"
-        android:layout_toRightOf="@id/tvlike"
-        android:layout_below="@id/like"
-        android:layout_marginTop="8dp"/>
+        android:background="@drawable/ic_bookmark_border_black_24dp" />
+
     <TextView
         android:id="@+id/tvMyId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="아이디"
+        android:text="제목"
         android:textColor="#FF000000"
         android:textSize="16sp"
-        android:layout_below="@id/tvlike"
+        android:layout_below="@id/like"
         android:layout_alignLeft="@id/like"
         android:layout_marginTop="2dp"/>
     <TextView
@@ -115,9 +98,6 @@
         android:textSize="16sp"
         android:layout_marginLeft="4dp"
         android:layout_toRightOf="@id/tvMyId"
-        android:layout_below="@id/tvlike"
+        android:layout_below="@id/like"
         android:layout_marginTop="2dp"/>
-
-
-
 </RelativeLayout>

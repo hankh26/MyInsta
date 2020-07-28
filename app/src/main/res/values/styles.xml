@@ -9,5 +9,6 @@
     </style>
 
     <style name="SearchTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+    <style name="Detail" parent="Theme.AppCompat.Light.DarkActionBar"></style>
 
 </resources>
