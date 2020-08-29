@@ -35,7 +35,7 @@
         android:layout_marginTop="4dp"/>
 
     <ImageView
-        android:id="@+id/iv"
+        android:id="@+id/ivinfo"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_alignParentRight="true"/>

@@ -133,11 +133,6 @@ public class DiaryActivity extends AppCompatActivity {
                     Toast.makeText(DiaryActivity.this, t+"", Toast.LENGTH_SHORT).show();
                 }
             });
-
         }
-
-
-
-
     }
 }

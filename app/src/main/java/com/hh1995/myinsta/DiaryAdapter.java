@@ -65,7 +65,7 @@ public class DiaryAdapter extends RecyclerView.Adapter {
             date=itemView.findViewById(R.id.date);
             title=itemView.findViewById(R.id.title);
             impressive=itemView.findViewById(R.id.impressive);
-            imageView=itemView.findViewById(R.id.iv);
+            imageView=itemView.findViewById(R.id.ivinfo);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override

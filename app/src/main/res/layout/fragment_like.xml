@@ -12,19 +12,12 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-            <ImageButton
-                android:id="@+id/imgBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_camera_alt_white_24dp"
-                android:layout_alignBottom="@id/toolbar_title"
-                android:background="#000000"/>
+
             <TextView
                 android:id="@+id/toolbar_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="like"
-                android:layout_toRightOf="@id/imgBtn"
                 android:layout_marginLeft="16dp"
                 android:fontFamily="@font/aaa"
                 android:textSize="30sp"
@@ -33,24 +26,18 @@
     </androidx.appcompat.widget.Toolbar>
 
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recylcer_circle"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        android:orientation="horizontal"/>
-
-    <ScrollView
+    <Button
+        android:id="@+id/btnYou"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1">
+        android:text="YouTube"/>
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recylcer_main"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            android:orientation="vertical"/>
+    <Button
+        android:id="@+id/btnYou2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YouTube2"/>
 
-    </ScrollView>
+
+
 </LinearLayout>

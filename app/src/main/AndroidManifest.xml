@@ -19,9 +19,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".CircleDetailActivity" android:theme="@style/Detail"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".YoutubeActivity" />
+        <activity android:name=".DetailActivity" />
         <activity android:name=".DiaryActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
